@@ -5,7 +5,7 @@ int main (){
 
     scanf("%d",&a);
     for (int i=1;i<=a*10;i=a){
-        b = b*i
+        b = b*i;
         printf("%d x %d = %d\n",a,i,b);
     }
 }
