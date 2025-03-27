@@ -7,6 +7,7 @@ int main (){
             if (i+j<=a) printf(" ");
             else printf("*");
         }
-        for (int k=1 = k)
+        // for (int k=1 = k)
     }
+    return ;
 }
