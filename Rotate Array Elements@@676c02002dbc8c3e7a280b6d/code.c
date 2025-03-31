@@ -30,7 +30,7 @@ int main ()
     reverse (arr,0,k-1);
     reverse (arr,k,n-1);
 
-    for  (int i=0;i<=n-1;i++) printf("%d/n",arr[i]);
+    for  (int i=0;i<=n-1;i++) printf("%d\n",arr[i]);
 
 
     return 0;
