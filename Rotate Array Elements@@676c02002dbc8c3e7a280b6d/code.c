@@ -4,7 +4,7 @@ void reverse(int arr[],int x,int y){
     for (int i=x,j=y;i<=j;i++,j--){
         int temp = arr[i];
         arr[i] = arr[j];
-        arr[j] = arr[i];
+        arr[j] = temp;
     }
     return;
 
