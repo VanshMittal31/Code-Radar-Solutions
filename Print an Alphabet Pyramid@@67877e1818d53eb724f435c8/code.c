@@ -7,10 +7,10 @@ int main ()
     for (int i=1;i<=0;i++){
         
         for (int j=1;j<=i;j++){
-            int d = 64+b;
+            int d = 64+j;
             char  cch = (char)d;
             printf ("%c",cch);
-            b++;
+            // b++;
 
         }
         printf("\n");
