@@ -10,7 +10,7 @@ int main ()
             int d = 64+b;
             char  cch = (char)d;
             printf ("%c",cch);
-            // b++;
+            b++;
 
         }
         printf("\n");
